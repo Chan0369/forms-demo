@@ -1,0 +1,25 @@
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input + label {
+  display: inline;
+}
+
+input {
+  border: 3px solid hotpink;
+  background-color: pink;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 0.25;
+}
+
+button {
+  border: 3px solid limegreen;
+  background-image: linear-gradient(limegreen, green);
+  font-size: 2rem;
+  padding: 0.5em;
+  border-radius: 10px;
+  cursor: pointer;
+}
